@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T01:56:46.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4UC-Am3_GvuC7hxkC8Cq" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T13:58:23.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="C4t9fn4cbfkReSoOINKt" version="20.7.4" type="github">
   <diagram id="dS-H6RdvGtDqhANUqR_T" name="第 1 页">
     <mxGraphModel dx="826" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ys2CUjfUv_H-y-x5qjIL-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ys2CUjfUv_H-y-x5qjIL-3" value="根据名称获取一个实例对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="160" width="160" height="20" as="geometry" />
+          <mxGeometry x="190" y="60" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ys2CUjfUv_H-y-x5qjIL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ys2CUjfUv_H-y-x5qjIL-4" target="Ys2CUjfUv_H-y-x5qjIL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -19,22 +19,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ys2CUjfUv_H-y-x5qjIL-4" value="BeanDefinitionRegistry" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="280" width="150" height="60" as="geometry" />
+          <mxGeometry x="380" y="120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ys2CUjfUv_H-y-x5qjIL-5" value="BeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ys2CUjfUv_H-y-x5qjIL-8" value="注册beandefinition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="250" width="100" height="30" as="geometry" />
+          <mxGeometry x="490" y="90" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ATn1EZ_51mZzCeht5Wi-1" value="AbstractFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="4ATn1EZ_51mZzCeht5Wi-1" value="AbstractFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4ATn1EZ_51mZzCeht5Wi-2" value="根据beanname,beandefinition实例化对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4ATn1EZ_51mZzCeht5Wi-2" value="根据beanname,beandefinition实例化对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="350" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ATn1EZ_51mZzCeht5Wi-3" value="AbstractAutowiredCapableFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4ATn1EZ_51mZzCeht5Wi-3" value="AbstractAutowiredCapableFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="400" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdnSAvN_cHXA5G48QqIL-1" value="SingleBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
